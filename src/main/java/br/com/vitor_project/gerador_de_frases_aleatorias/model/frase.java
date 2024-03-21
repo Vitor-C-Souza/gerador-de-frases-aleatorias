@@ -18,7 +18,14 @@ public class frase {
     private String frase;
     private String personagem;
     private String poster;
-    
+
+    public frase() {}    
+    public frase(String titulo, String frase, String personagem, String poster) {
+        this.titulo = titulo;
+        this.frase = frase;        
+        this.personagem = personagem;
+        this.poster = poster;
+    }
     public Long getId() {
         return id;
     }
